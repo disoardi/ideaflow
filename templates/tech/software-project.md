@@ -110,7 +110,7 @@ Cosa gli utenti vogliono ottenere:
 - [ ] ELABORATE: Approfondire technical design
 - [ ] VALIDATE: Decidere se buildare MVP
 - [ ] DOCUMENT: Se validated, documentare completo
-- [ ] PREPARE: Generare artifacts (claude.md, setup prompts)
+- [ ] PREPARE: Generare artifacts (ai-context.md, setup prompts)
 
 ---
 

@@ -125,3 +125,173 @@ Genera diagrammi in formato Mermaid o PlantUML:
 - [Visione long-term]
 
 **Roadmap Dettagliata:**
+
+```mermaid
+gantt
+    title Roadmap Implementazione
+    dateFormat  YYYY-MM-DD
+    
+    section Fase 1
+    Quick Test        :2025-02-01, 2d
+    MVP Development   :2025-02-03, 3w
+    
+    section Fase 2
+    Testing & Iteration :2025-02-24, 2w
+    Launch              :2025-03-10, 1d
+    
+    section Fase 3
+    Version 2.0         :2025-03-11, 6w
+```
+
+### 7. 🔍 Alternative Considerate
+
+**Alternative Analizzate:**
+
+**Alternativa A: [Nome]**
+- Pro: [Lista pro]
+- Contro: [Lista contro]
+- Perché scartata: [Ragione]
+
+**Alternativa B: [Nome]**
+- Pro: [Lista pro]
+- Contro: [Lista contro]
+- Perché scartata: [Ragione]
+
+**Perché Approccio Scelto:**
+[Ragionamento della scelta finale]
+
+### 8. ⚠️ Rischi e Mitigazioni
+
+| Rischio | Probabilità | Impatto | Mitigazione | Owner |
+|---------|-------------|---------|-------------|-------|
+| [Rischio 1] | Alta/Media/Bassa | Alto/Medio/Basso | [Come mitigare] | [Chi] |
+| [Rischio 2] | | | | |
+
+**Contingency Plans:**
+- Se [scenario X]: [Piano B]
+- Se [scenario Y]: [Piano B]
+
+### 9. 📅 Timeline e Milestones
+
+**Timeline Completa:**
+
+**Fase 1: Quick Test** (Giorni 1-2)
+- [ ] [Task 1]
+- [ ] [Task 2]
+- **Checkpoint**: [Decision point]
+
+**Fase 2: MVP Development** (Settimane 1-3)
+- [ ] [Task 1]
+- [ ] [Task 2]
+- **Milestone**: MVP completato
+
+**Fase 3: Testing** (Settimane 4-5)
+- [ ] [Task 1]
+- [ ] [Task 2]
+- **Milestone**: Validato e testato
+
+**Fase 4: Launch/Deploy** (Settimana 6)
+- [ ] [Task 1]
+- [ ] [Task 2]
+- **Milestone**: In produzione/pubblicato
+
+**Fase 5: Iteration** (Ongoing)
+- Cicli di feedback e miglioramento
+
+### 10. 💰 Risorse Necessarie
+
+**Tempo:**
+- Stima totale: [X ore/giorni/settimane]
+- Breakdown per fase: [Dettaglio]
+
+**Competenze:**
+- [Competenza 1]: [Ho già / Devo acquisire]
+- [Competenza 2]: [Ho già / Devo acquisire]
+
+**Tools/Servizi:**
+- [Tool 1]: [Costo se applicabile]
+- [Tool 2]: [Costo se applicabile]
+
+**Budget Totale** (se applicabile):
+[Stima costi]
+
+### 11. 🔗 Collegamenti
+
+**Idee Correlate:**
+- [Link a Idea #XXX]: [Come si connette]
+- [Link a Idea #YYY]: [Come si connette]
+
+**Progetti/Risorse Esterne:**
+- [Progetto/Risorsa 1]: [Relevanza]
+- [Progetto/Risorsa 2]: [Relevanza]
+
+**Dipendenze:**
+- Questa idea dipende da: [Cosa]
+- Altre idee che dipendono da questa: [Quali]
+
+### 12. 📝 Note e Considerazioni
+
+**Decisioni di Design:**
+- [Decisione 1]: [Perché presa]
+- [Decisione 2]: [Perché presa]
+
+**Trade-off Accettati:**
+- [Trade-off 1]: [Ragionamento]
+- [Trade-off 2]: [Ragionamento]
+
+**Open Questions:**
+- [Domanda 1 ancora senza risposta]
+- [Domanda 2 ancora senza risposta]
+
+**Lessons Learned** (da aggiornare durante implementation):
+- [Lesson 1]
+- [Lesson 2]
+
+---
+
+## 📊 Appendici
+
+### Appendice A: Glossario
+- **Termine 1**: Definizione
+- **Termine 2**: Definizione
+
+### Appendice B: Riferimenti
+- [Documento 1]
+- [Documento 2]
+
+---
+
+## ✅ Checklist Completezza Documentazione
+
+Prima di considerare la documentazione completa, verifica:
+
+- [ ] Executive summary chiaro e completo
+- [ ] Problema e soluzione ben descritti
+- [ ] Obiettivi misurabili definiti
+- [ ] Architettura/design documentato (se applicabile)
+- [ ] Requisiti funzionali e non-funzionali listati
+- [ ] Roadmap con timeline realistiche
+- [ ] Alternative considerate e ragionamento
+- [ ] Rischi identificati con mitigazioni
+- [ ] Risorse necessarie stimate
+- [ ] Collegamenti ad altre idee/progetti
+- [ ] Diagrammi creati (se necessari)
+
+---
+
+**Output formato:** Markdown completo, ben strutturato, ready for implementation.
+
+---
+
+## 📝 Dopo il Prompt
+
+1. ✅ Salva output in `ideas/idea-XXX-complete.md`
+2. ✅ Genera diagrammi (se inclusi) e salva in `ideas/diagrams/`
+3. ✅ Review documentazione per completezza
+4. ✅ Aggiorna stato tracker: 🔵 To Do → 🔵 Documented
+5. ✅ Prossimo step: Fase PREPARE (genera artifacts)
+6. ✅ Condividi documentazione con stakeholder (se applicabile)
+
+---
+
+*Prompt da IdeaFlow Framework - https://github.com/disoardi/ideaflow*

@@ -1,59 +1,93 @@
-# 🤝 Contributing to IdeaFlow
+# Contributing to IdeaFlow
 
-Grazie per il tuo interesse! Contribuzioni sono benvenute. 🎉
+Grazie per il tuo interesse nel contribuire a IdeaFlow! 🎉
 
-## 🎯 Workflow Git-Based
+## 🎯 Come Contribuire
 
-### 1. Fork del Repository
+Ci sono molti modi per contribuire:
 
-Clicca "Fork" su https://github.com/disoardi/ideaflow
+### 1. 📝 Template e Prompt
 
-### 2. Clone del Tuo Fork
+Contribuisci nuovi template per use case specifici:
+- Template per settori specifici (finance, healthcare, education, etc.)
+- Prompt ottimizzati per AI specifici
+- Varianti per lingue diverse
 
-```bash
-git clone https://github.com/TUO-USERNAME/ideaflow.git
-cd ideaflow
-git remote add upstream https://github.com/disoardi/ideaflow.git
-```
+**Come:**
+1. Fork il repository
+2. Crea branch: `git checkout -b feature/new-template-name`
+3. Aggiungi template in `templates/` con documentazione
+4. Crea PR con descrizione chiara
 
-### 3. Crea Branch
+### 2. 📚 Documentazione
 
-```bash
-git checkout -b feature/nome-feature
-```
+Migliora la documentazione esistente:
+- Correzioni typo
+- Chiarimenti
+- Traduzioni
+- Nuove sezioni
 
-### 4. Fai Modifiche e Commit
+### 3. 🎨 Esempi
 
-```bash
-git add .
-git commit -m "✨ Descrizione modifica"
-git push origin feature/nome-feature
-```
+Aggiungi esempi di workflow reali:
+- Progetti completati usando IdeaFlow
+- Casi d'uso specifici
+- Risultati ottenuti
 
-### 5. Apri Pull Request
+**Nota:** Gli esempi devono essere **anonimi** e non contenere informazioni sensibili.
 
-Su GitHub, dal tuo fork, clicca "Compare & pull request"
+### 4. 💡 Idee e Feedback
 
-### 6. Review
-
-Maintainer reviewerà entro 7 giorni.
-
-## 💡 Cosa Contribuire
-
-- **Template** nuovi per use case specifici
-- **Prompt** ottimizzati
-- **Docs** miglioramenti/correzioni
-- **Esempi** workflow reali (anonimizzati)
+Partecipa alle discussioni:
+- [GitHub Discussions](https://github.com/disoardi/ideaflow/discussions)
+- Proponi miglioramenti
+- Condividi la tua esperienza
 
 ## 📋 Guidelines
 
-- Template devono avere README
-- Prompt testati su 2+ AI
-- Docs in italiano
-- No informazioni sensibili negli esempi
+### Template
+
+Ogni nuovo template deve includere:
+- Header con descrizione e uso
+- Sezioni chiare e ben definite
+- Esempi di compilazione
+- README che spiega quando usarlo
+
+### Prompt
+
+Ogni prompt deve:
+- Essere AI-agnostic (o specificare per quale AI è ottimizzato)
+- Includere istruzioni chiare
+- Avere output atteso descritto
+- Essere testato su almeno 2 AI diversi
+
+### Documentazione
+
+- Scrivi in italiano (lingua principale del progetto)
+- Usa markdown formattato bene
+- Aggiungi esempi dove possibile
+- Link a risorse correlate
+
+## 🔍 Review Process
+
+1. Apri PR con descrizione dettagliata
+2. Maintainer review (entro 7 giorni)
+3. Eventuali modifiche richieste
+4. Merge quando approvata
+
+## 🚫 Cosa NON Contribuire
+
+- Codice eseguibile (IdeaFlow è un framework, non un tool)
+- Plugin specifici (per ora fuori scope)
+- Integrazioni API (manteniamo AI-agnostic)
+- Informazioni personali o sensitive
 
 ## 📜 Licenza
 
-Contribuendo accetti GPL-3.0.
+Contribuendo, accetti che i tuoi contributi siano rilasciati sotto licenza GPL-3.0.
 
-Grazie! 🚀
+## 🙏 Riconoscimenti
+
+Tutti i contributori sono riconosciuti nel README.
+
+Grazie per rendere IdeaFlow migliore! 🚀

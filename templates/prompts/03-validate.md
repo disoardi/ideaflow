@@ -109,3 +109,53 @@ Sulla base dell'analisi, dammi una **raccomandazione** con ragionamento:
 Se la decisione è GO o LATER, proponi:
 
 **Timeline Realistica:**
+```
+Settimana 1-2: [Quick test]
+Settimana 3-4: [Se quick test OK, ...]
+Mese 2: [MVP development]
+Mese 3: [Testing & iteration]
+```
+
+**Milestones e Checkpoints:**
+- [Milestone 1] - [Data] - [Success criteria]
+- [Milestone 2] - [Data] - [Success criteria]
+
+**Go/No-Go Checkpoints:**
+- Dopo quick test: [Decision point]
+- Dopo MVP: [Decision point]
+
+---
+
+**Output richiesto:**
+
+Crea documento strutturato con:
+1. Executive Summary della validazione
+2. Analisi dettagliata per ogni sezione
+3. **Raccomandazione chiara** con ragionamento
+4. Se GO: Timeline e next steps
+5. Se NO-GO: Ragionamento e learnings
+
+---
+
+## 📝 Dopo il Prompt
+
+Dopo aver ottenuto l'analisi di validazione:
+
+1. ✅ Salva in `ideas/idea-XXX-validated.md`
+2. ✅ **Prendi la decisione** (tu umano, non l'AI)
+3. ✅ Aggiorna stato nel tracker:
+   - GO → 🔵 To Do
+   - LATER → 🔴 On Hold (con data review)
+   - NO-GO → ⚫ Rejected
+4. ✅ Se GO: Procedi a fase DOCUMENT
+5. ✅ Se LATER: Setta reminder per review
+6. ✅ Se NO-GO: Documenta learnings
+
+---
+
+*Prompt da IdeaFlow Framework - https://github.com/disoardi/ideaflow*
+```
+
+---
+
+*[Continua con altri file...]*

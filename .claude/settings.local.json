@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git tag:*)",
+      "Bash(grep:*)",
+      "Bash(for file in README.md LICENSE CONTRIBUTING.md CODE_OF_CONDUCT.md templates/core/*.md templates/prompts/*.md docs/*.md templates/tech/*.md templates/personal/*.md examples/complete-workflow/README.md .github/workflows/*.yml .github/ISSUE_TEMPLATE/*.md scripts/*.py)",
+      "Bash(do tail:*)",
+      "Bash(echo:*)",
+      "Bash(git checkout:*)"
+    ]
+  }
+}

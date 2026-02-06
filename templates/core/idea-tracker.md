@@ -39,6 +39,12 @@
 - [ ] Fase DOCUMENT - Creare documentazione completa
 - [ ] Fase PREPARE - Generare materiali implementazione
 
+#### Link Documentazione
+- Raw: `ideas/idea-001-raw.md` (se esiste)
+- Elaborated: `ideas/idea-001-elaborated.md` (quando fatto)
+- Complete: `ideas/idea-001-complete.md` (quando fatto)
+- Artifacts: `artifacts/idea-001/` (quando fatto)
+
 ---
 
 ## 📈 Statistiche
@@ -61,4 +67,8 @@
 
 ---
 
-*Template da IdeaFlow Framework - https://github.com/disoardi/ideaflow*
+## 📝 Note
+
+- Questo tracker usa IdeaFlow Framework: https://github.com/disoardi/ideaflow
+- Segui il workflow in 5 fasi per elaborare le idee
+- Revisiona settimanalmente per aggiornare stati

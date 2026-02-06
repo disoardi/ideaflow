@@ -2,22 +2,26 @@
 
 ## Our Pledge
 
-We pledge to make participation harassment-free for everyone.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone.
 
-## Standards
+## Our Standards
 
-✅ Welcoming and inclusive language
-✅ Respectful of differing viewpoints  
-✅ Gracefully accepting constructive criticism
+Examples of behavior that contributes to a positive environment:
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
 
-❌ Trolling, insults, personal attacks
-❌ Harassment
-❌ Publishing private information
+Examples of unacceptable behavior:
+- Trolling, insulting/derogatory comments, and personal attacks
+- Public or private harassment
+- Publishing others' private information without permission
+- Other conduct which could reasonably be considered inappropriate
 
 ## Enforcement
 
-Report to maintainers. All complaints reviewed.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers at [INSERT EMAIL]. All complaints will be reviewed and investigated.
 
 ## Attribution
 
-Adapted from Contributor Covenant v2.1
+This Code of Conduct is adapted from the Contributor Covenant, version 2.1.

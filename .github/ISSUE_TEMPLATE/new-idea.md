@@ -1,36 +1,43 @@
 ---
 name: 💡 Nuova Idea
-about: Condividi una nuova idea con la community
+about: Condividi una nuova idea con la community IdeaFlow
 title: '[IDEA] '
 labels: 'idea, community'
+assignees: ''
 ---
 
 ## 💡 Idea
 
-**Nome:** [Titolo]
-**Categoria:** [Tech/Personal/Creative/Business]
+**Nome:** [Titolo idea]
+
+**Categoria:** [Tech/Personal/Creative/Business/Altro]
 
 ## 📝 Descrizione
 
-[Descrivi l'idea in 2-3 paragrafi]
+[Descrivi la tua idea in 2-3 paragrafi]
 
 ## 🎯 Obiettivo
 
-[Cosa vuoi ottenere?]
+[Cosa vuoi ottenere con questa idea?]
 
 ## 🤔 Domande
 
-[Domande per la community]
+[Eventuali domande per la community]
 
 ---
 
-**Hai usato IdeaFlow?**
-- [ ] Sì - workflow completo
-- [ ] Parzialmente
+**Hai usato IdeaFlow per questa idea?**
+- [ ] Sì - allega file se vuoi condividere workflow
 - [ ] No - solo idea da discutere
 
-**Stato:**
-- [ ] 🟠 Captured
-- [ ] 🔵 Validated
-- [ ] 🟡 In Progress
-- [ ] 🟢 Done
+**Stato attuale:**
+- [ ] 🟠 Appena catturata
+- [ ] 🔵 Elaborata
+- [ ] 🔵 Validata
+- [ ] 🟢 Documentata
+- [ ] 🟡 In implementazione
+- [ ] 🟢 Completata
+
+---
+
+*Grazie per condividere! La community ti aiuterà ad elaborarla.* 🚀

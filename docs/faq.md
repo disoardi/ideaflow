@@ -79,13 +79,15 @@ Domande frequenti su IdeaFlow.
 - ELABORATE: Claude (profondo)
 - VALIDATE: Gemini (prospettiva diversa)
 
-### Q: Come decido quando fermarmi?
-**A:**
-- CAPTURE: Sempre (costa poco, beneficio alto)
-- ELABORATE: Solo se idea promettente
-- VALIDATE: Se hai dubbio su fattibilità
-- DOCUMENT: Solo se decisione è GO
-- PREPARE: Sempre prima di implementare
+### Q: Devo completare tutte le fasi per ogni idea?
+**A:** No! Puoi fermarti a qualsiasi fase. Ecco quando procedere:
+- **CAPTURE**: Sempre (costa poco, beneficio alto)
+- **ELABORATE**: Solo se l'idea catturata sembra promettente
+- **VALIDATE**: Se dopo l'elaborazione hai ancora dubbi sulla fattibilità
+- **DOCUMENT**: Solo se la validazione ha dato esito GO
+- **PREPARE**: Sempre prima di iniziare l'implementazione
+
+È normale che molte idee si fermino a CAPTURE o ELABORATE.
 
 ---
 
@@ -270,7 +272,8 @@ Quick:
 **A:**
 - Genera solo artifact che userai
 - Skip quelli non rilevanti per il tuo stack
-- Focus su essenziale (claude.md + checklist)
+- Focus su essenziale (ai-context.md + checklist)
+  - Nota: rinomina in CLAUDE.md se usi Claude per context automatico
 
 ---
 
@@ -358,3 +361,8 @@ Quick:
 ---
 
 *FAQ aggiornate continuamente. Contribuisci con tue domande!*
+```
+
+---
+
+*Continua con template specifici ed esempi...*
