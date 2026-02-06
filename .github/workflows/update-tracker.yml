@@ -1,0 +1,26 @@
+name: Update Idea Tracker
+
+on:
+  push:
+    paths:
+      - 'examples/**'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Update tracker stats
+        run: |
+          echo "✅ Tracker updated (placeholder)"
+          # Script Python per update stats quando implementato
+          
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update tracker"
+          git push

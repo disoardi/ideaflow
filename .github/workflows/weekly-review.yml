@@ -1,0 +1,38 @@
+name: Weekly Idea Review Reminder
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+
+jobs:
+  create-review-issue:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Check ideas needing review
+        id: check
+        run: |
+          python scripts/check-review-needed.py
+      
+      - name: Create reminder issue
+        if: steps.check.outputs.needs_review == 'true'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const summary = `${{ steps.check.outputs.summary }}`;
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '📋 Weekly Idea Review - ' + new Date().toISOString().split('T')[0],
+              body: `## 📊 Ideas Needing Review\n\n${summary}\n\n---\n\n**Action Items:**\n- Review captured ideas (>7 days)\n- Update In Progress status\n- Check On Hold ideas (time to revive?)\n- Archive completed ideas\n\n*Automated reminder from IdeaFlow Framework*`,
+              labels: ['reminder', 'review', 'automated']
+            });
