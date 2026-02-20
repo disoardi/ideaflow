@@ -1,0 +1,35 @@
+title: IdeaFlow
+description: "Framework AI-agnostic per gestire idee: dal pensiero grezzo all'implementazione"
+baseurl: "/ideaflow"
+url: "https://disoardi.github.io"
+
+theme: minima
+
+# Navigation
+header_pages:
+  - docs/index.md
+  - docs/getting-started.md
+  - docs/workflow-guide.md
+  - docs/best-practices.md
+  - docs/faq.md
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude from build
+exclude:
+  - scripts/
+  - examples/
+  - templates/
+  - "*.sh"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
